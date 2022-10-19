@@ -14,4 +14,8 @@
     git
   ];
 
+  filesystems."/" = {
+    device = "/dev/disk/by-label/nixos";
+  };
+
 }

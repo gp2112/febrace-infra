@@ -2,7 +2,7 @@
   description = "Febrace nix infrastructure.";
 
   inputs = {
-    nixpkgs = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
