@@ -4,6 +4,8 @@
   imports = [
     ../common
     ./networking.nix
+    ./nginx.nix
+    ./febraceapi
   ];
 
   ec2.hvm = true;
@@ -14,7 +16,7 @@
     git
   ];
 
-  filesystems."/" = {
+  fileSystems."/" = {
     device = "/dev/disk/by-label/nixos";
   };
 
