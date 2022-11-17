@@ -5,7 +5,7 @@
     ../common
     ./networking.nix
     ./nginx.nix
-    ./febraceapi
+    ./febraceapi.nix
   ];
 
   ec2.hvm = true;

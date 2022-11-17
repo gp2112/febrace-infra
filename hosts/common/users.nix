@@ -16,8 +16,8 @@
 
       githubactions = {
         isSystemUser = true;
-
-        openssh.authorizedKeys = [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/g/kctFPTbZfehzEFszaPLF3/7mBTurgM4PkbotZo3rXQWUJ1MUKlCFfj4Z0d14DZaTsJWlLC26p1+sw8lsyU1XwF9EokSEXVMqfAwrGjOfvSdUPqzG/rzo/tSdXB0t/dbUBaXOfXbiy0TqareAZWulglbMDCnfqhiYil9p3PMyB2iyAO96mXhv9ey5Hzk6gDW2udhYFrcpf5I8/u/Why4fj5lBfgQENHif2Cuaa4qBfULzjzRVwB2EwanvVrGdRhEUwB+at4zymB2UgvcGACO3RN0Dwm0HAGqsgddOE9bVVzRUwHbnRj68yxnhRVW6VMCmZgoQUQZ//NVLbc3lqPEeS5KJ8Om4YKzPE5znDZkAuTscFVpY3Z/JjN3A9KlYaQwfeaV6Pu/9mclxZa864KqlzIXkaRW1X/zLOUfBtDp4lXEOHAtvQsBSim66cevla5hX0oQIHrI3VQCa7ZtVLEywsncVSIYAsXB2J+OgzKSexMMEV/AD+bYuYJHGbYiik= git@github" ];
+        group = "githubactions";
+        openssh.authorizedKeys.keys = [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/g/kctFPTbZfehzEFszaPLF3/7mBTurgM4PkbotZo3rXQWUJ1MUKlCFfj4Z0d14DZaTsJWlLC26p1+sw8lsyU1XwF9EokSEXVMqfAwrGjOfvSdUPqzG/rzo/tSdXB0t/dbUBaXOfXbiy0TqareAZWulglbMDCnfqhiYil9p3PMyB2iyAO96mXhv9ey5Hzk6gDW2udhYFrcpf5I8/u/Why4fj5lBfgQENHif2Cuaa4qBfULzjzRVwB2EwanvVrGdRhEUwB+at4zymB2UgvcGACO3RN0Dwm0HAGqsgddOE9bVVzRUwHbnRj68yxnhRVW6VMCmZgoQUQZ//NVLbc3lqPEeS5KJ8Om4YKzPE5znDZkAuTscFVpY3Z/JjN3A9KlYaQwfeaV6Pu/9mclxZa864KqlzIXkaRW1X/zLOUfBtDp4lXEOHAtvQsBSim66cevla5hX0oQIHrI3VQCa7ZtVLEywsncVSIYAsXB2J+OgzKSexMMEV/AD+bYuYJHGbYiik= git@github" ];
       };
 
     };

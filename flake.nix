@@ -11,7 +11,7 @@
     febrace-client.url = "github:gp2112/febrace-client";
   };
 
-  outputs = { nixpkgs, flake-utils, febrace-api, febrace-client, ... }@inputs:
+  outputs = { nixpkgs, flake-utils, febraceapi, febrace-client, ... }@inputs:
     let
       inherit (builtins) attrValues;
       inherit (flake-utils.lib) eachDefaultSystemMap;

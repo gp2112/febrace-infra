@@ -8,7 +8,8 @@ in
 {
   services.febraceapi = {
     enable = true;
-    credentialsFile = "/var/${services.febraceapi.user}/.aws";
+    user = "febraceapi";
+    credentialsFile = "/var/febraceapi/.aws";
     inherit port;
   };
 
@@ -16,7 +17,7 @@ in
   services.nginx.virtualHosts = {
     "${domain}" = {
       locations."/" = {
-        proxyPass = "http://127.0.0.1:${port}";
+          proxyPass = "http://127.0.0.1:${toString port}";
       };
     };
   };
