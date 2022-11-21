@@ -14,7 +14,6 @@
   '';
   nix.settings.trusted-users = [ "@wheel" "githubactions" ];
 
-  networking.firewall.allowedTCPPorts = [ 22 ];
 
   i18n.defaultLocale = "en_US.UTF-8";
 
