@@ -6,7 +6,7 @@
   ];
 
   nginx.virtualHosts = {
-    "api.febrace.guip.dev" = {
+    "febrace.guip.dev" = {
       locations."/" = {
         root = "${febrace-client}";
       };

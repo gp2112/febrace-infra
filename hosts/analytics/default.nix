@@ -6,6 +6,7 @@
     ./networking.nix
     ./nginx.nix
     ./febraceapi.nix
+    ./febrace-client.nix
   ];
 
   ec2.hvm = true;
