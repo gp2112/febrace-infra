@@ -5,7 +5,7 @@
     febrace-client
   ];
 
-  nginx.virtualHosts = {
+  services.nginx.virtualHosts = {
     "febrace.guip.dev" = {
       locations."/" = {
         root = "${pkgs.febrace-client}";
