@@ -23,11 +23,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1668470442,
-        "narHash": "sha256-csE5aBpkQxdDCc+BHlKttImQAfTl9SBVJDuswe5DVIA=",
+        "lastModified": 1669056301,
+        "narHash": "sha256-2poAuuHYkHBzr/63sVRcJHjsMZhzkYdZae63C/HfMUc=",
         "owner": "gp2112",
         "repo": "febrace-analytics-api",
-        "rev": "7766058a60bf66df0d73e0480c90565b26d9084d",
+        "rev": "d7875671b1597e7479c545e355016238c87a55d1",
         "type": "github"
       },
       "original": {
