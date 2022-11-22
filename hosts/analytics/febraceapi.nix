@@ -19,7 +19,7 @@ in
       forceSSL = true;
       enableACME = true;
       basicAuthFile = "/var/febraceapi/.basicauth";
-      locations."/api" = {
+      locations."/" = {
         proxyPass = "http://127.0.0.1:${toString port}";
       };
     };
