@@ -2,7 +2,7 @@
 
 
 let
-  domain = "febrace.guip.dev";
+  domain = "api.febrace.guip.dev";
   port = 5000;
 in
 {
