@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1668467731,
-        "narHash": "sha256-4t7azJ0qdt1mf/zu9Epuq8KqPzbEFn9BofFnIw0uxEs=",
+        "lastModified": 1669401384,
+        "narHash": "sha256-LpBqeZydgrSHB1QEKigxQfT3vM/30U+tACzX5PJBMQc=",
         "owner": "gp2112",
         "repo": "febrace-client",
-        "rev": "388addae6ff743f6af3074021cb8f2ded76eaa65",
+        "rev": "fdfc41afa473c66d1b5eaeded23531a748d6441f",
         "type": "github"
       },
       "original": {
