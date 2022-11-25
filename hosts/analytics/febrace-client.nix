@@ -9,7 +9,7 @@
     "febrace.guip.dev" = {
       forceSSL = true;
       enableACME = true;
-      basicAuthFile = "/var/febraceapi/.basicauth";
+      #basicAuthFile = "/var/febraceapi/.basicauth";
       locations."/" = {
         root = "${pkgs.febrace-client}";
       };
